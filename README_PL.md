@@ -2,14 +2,14 @@
 
 <img src="docs/images/banner.svg" alt="GhostVPN terminal: root@ghost-net:~# ghostvpn --connect --stealth" width="100%">
 
-# GhostVPN BETA · Windows 10/11
+<img src="docs/images/h/pl-ghostvpn-v4926-beta-windows-1011.svg" alt="GhostVPN v4.9.26-BETA · Windows 10/11" height="49">
 
-## Bezpieczne. Szyfrowane. Niewidoczne.
+<img src="docs/images/h/pl-bezpieczne-szyfrowane-niewidoczne.svg" alt="Bezpieczne. Szyfrowane. Niewidoczne." height="40">
 
 ### Zmień IP jednym kliknięciem: OpenVPN, WireGuard, Shadowsocks i proxy w jednym ciemnym, szybkim programie dla Windows.
 
 [![Wersja](https://img.shields.io/badge/wersja-4.9.26--BETA-2ee66b?style=for-the-badge)](../../releases/latest)
-[![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-szybki-start)
+[![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#szybki-start)
 [![Licencja](https://img.shields.io/badge/licencja-tylko%20u%C5%BCytek%20domowy-red?style=for-the-badge)](LICENSE)
 
 ## [⬇ Pobierz GhostVPN](../../releases/latest)
@@ -22,7 +22,9 @@
 
 <img src="docs/images/screen-main.jpg" alt="Ekran główny GhostVPN" width="100%">
 
-## 👻 Czym jest GhostVPN?
+<a id="czym-jest-ghostvpn"></a>
+
+<img src="docs/images/h/pl-czym-jest-ghostvpn.svg" alt="CZYM JEST GHOSTVPN?" height="37">
 
 ### GhostVPN ukrywa Twój prawdziwy adres IP.
 
@@ -30,7 +32,9 @@
 
 Korzystasz z własnego konta VPN (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` i wielu innych) albo z darmowych serwerów. GhostVPN zastępuje wszystkie ich osobne aplikacje **jednym oknem**: wybierasz kraj, klikasz **POŁĄCZ VPN** i gotowe.
 
-## 🚀 Szybki start
+<a id="szybki-start"></a>
+
+<img src="docs/images/h/pl-szybki-start.svg" alt="SZYBKI START" height="37">
 
 1. **Pobierz** `GhostVPN_portable.zip` z [Releases](../../releases/latest) i rozpakuj, np. do `C:\GhostVPN`.
 2. **Uruchom** `URUCHOM_GHOST.bat` i kliknij **Tak**, gdy Windows zapyta o uprawnienia administratora.
@@ -42,7 +46,9 @@ Korzystasz z własnego konta VPN (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad`
 
 👉 Krok po kroku: **[Instrukcja](docs/USER_GUIDE.md)** · Problemy: **[FAQ](docs/FAQ.md)** (po angielsku)
 
-## ✨ Funkcje
+<a id="funkcje"></a>
+
+<img src="docs/images/h/pl-funkcje.svg" alt="FUNKCJE" height="37">
 
 | | Funkcja | Co robi |
 |:-:|---|---|
@@ -61,7 +67,9 @@ Korzystasz z własnego konta VPN (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad`
 | <img src="docs/images/features/skorki-jezyk.png" width="48"> | **Skórki i zasobnik** | 20 motywów kolorów, polski i angielski, praca z zasobnika obok zegara. |
 | <img src="docs/images/features/darmowe-vpn.png" width="48"> | **Darmowe VPN** | Gotowe pozycje dla darmowych serwerów publicznych VPN Gate i IPSpeed. |
 
-## 🌍 Obsługiwani dostawcy
+<a id="obslugiwani-dostawcy"></a>
+
+<img src="docs/images/h/pl-obslugiwani-dostawcy.svg" alt="OBSŁUGIWANI DOSTAWCY" height="37">
 
 ### GhostVPN nie sprzedaje VPN: korzystasz z własnego konta albo z darmowych serwerów.
 
@@ -137,7 +145,9 @@ GhostVPN tworzy plik `SERWER Squid + Shadowsocks.txt` z gotowymi komendami do sk
 
 </details>
 
-## 🔐 OpenVPN, WireGuard czy proxy?
+<a id="openvpn-wireguard-czy-proxy"></a>
+
+<img src="docs/images/h/pl-openvpn-wireguard-czy-proxy.svg" alt="OPENVPN, WIREGUARD CZY PROXY?" height="37">
 
 | | OpenVPN | WireGuard | Proxy |
 |---|---|---|---|
@@ -150,7 +160,9 @@ GhostVPN tworzy plik `SERWER Squid + Shadowsocks.txt` z gotowymi komendami do sk
 
 Twój login VPN jest szyfrowany przez Windows (DPAPI) i zostaje na Twoim komputerze. GhostVPN nie ma konta, reklam ani śledzenia.
 
-## 📜 Licencja
+<a id="licencja"></a>
+
+<img src="docs/images/h/pl-licencja.svg" alt="LICENCJA" height="37">
 
 ### GhostVPN należy wyłącznie do autora, MRGREGOR85. Tylko do prywatnego, domowego użytku.
 
@@ -160,7 +172,9 @@ Pełny tekst: [LICENSE](LICENSE). Licencję przeczytasz też w programie: **USTA
 
 GhostVPN to niezależny program, niezwiązany z żadnym dostawcą VPN ani proxy. Dane mapy © współtwórcy [OpenStreetMap](https://www.openstreetmap.org/copyright).
 
-## 👨‍💻 Autor
+<a id="autor"></a>
+
+<img src="docs/images/h/pl-autor.svg" alt="AUTOR" height="37">
 
 <img src="docs/images/logo.png" alt="MRGREGOR85" width="110" align="left">
 
