@@ -51,38 +51,38 @@ GhostVPN does not sell VPN. You use your own account with one of these providers
 
 | 💳 Paid VPN | 🆓 Free VPN | 🔧 Own WireGuard | 💼 Paid proxy |
 |:-:|:-:|:-:|:-:|
-| **19 providers** | **VPN Gate · IPSpeed** | **your `.conf` file** | **19 providers** |
+| **19 providers** | `VPN Gate` · `IPSpeed` | **your `.conf` file** | **19 providers** |
 
 ### 💳 Paid VPN (OpenVPN)
 
 | Provider | How servers get into GhostVPN |
 |---|---|
-| NordVPN (shown as **OpenVPN** in the list) | ⚡ automatic, one click (5000+ servers) |
-| PrivadoVPN | ⚡ automatic, one click |
-| PIA VPN | ⚡ automatic, one click |
-| IPVanish | ⚡ automatic, one click |
-| PureVPN | ⚡ automatic, one click |
-| VyprVPN | ⚡ automatic, one click |
-| IVPN | ⚡ automatic, one click |
-| FastVPN (Namecheap) | ⚡ automatic, one click |
-| OVPN.com | ⚡ automatic, one click |
-| Mullvad VPN | 🔑 automatic with your account number (OpenVPN + WireGuard) |
-| AirVPN | 🔑 automatic with your Direct Link |
-| CyberGhost | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
-| PrivateVPN | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
-| Perfect Privacy | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
-| HMA VPN | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
-| TorGuard | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
-| ProtonVPN | 📁 `.ovpn` files from the provider's website |
-| ExpressVPN | 📁 `.ovpn` files from the provider's website |
-| Surfshark | 📁 `.ovpn` files from the provider's website |
+| `NordVPN` (shown as **OpenVPN** in the list) | ⚡ automatic, one click (5000+ servers) |
+| `PrivadoVPN` | ⚡ automatic, one click |
+| `PIA VPN` | ⚡ automatic, one click |
+| `IPVanish` | ⚡ automatic, one click |
+| `PureVPN` | ⚡ automatic, one click |
+| `VyprVPN` | ⚡ automatic, one click |
+| `IVPN` | ⚡ automatic, one click |
+| `FastVPN (Namecheap)` | ⚡ automatic, one click |
+| `OVPN.com` | ⚡ automatic, one click |
+| `Mullvad VPN` | 🔑 automatic with your account number (OpenVPN + WireGuard) |
+| `AirVPN` | 🔑 automatic with your Direct Link |
+| `CyberGhost` | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| `PrivateVPN` | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| `Perfect Privacy` | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| `HMA VPN` | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| `TorGuard` | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| `ProtonVPN` | 📁 `.ovpn` files from the provider's website |
+| `ExpressVPN` | 📁 `.ovpn` files from the provider's website |
+| `Surfshark` | 📁 `.ovpn` files from the provider's website |
 
 ### 🆓 Free VPN (OpenVPN): no account, no payment
 
 | Provider | How servers get into GhostVPN |
 |---|---|
-| VPN Gate | ⚡ automatic, one click: free public servers |
-| IPSpeed | ⚡ automatic, one click: free public servers |
+| `VPN Gate` | ⚡ automatic, one click: free public servers |
+| `IPSpeed` | ⚡ automatic, one click: free public servers |
 
 Where: **SETTINGS → ADVANCED → 🆓 DARMOWE VPN (free VPN) → UPDATE**. Every downloaded profile is checked before it is saved.
 
@@ -94,21 +94,21 @@ WireGuard is not a provider, it is a fast VPN protocol. If your provider (paid o
 
 ### 💼 Paid proxy
 
-Proxy Store · Bright Data · Oxylabs · Decodo · NetNut · SOAX · IPRoyal · Rayobyte · Infatica · ProxyEmpire · ProxyRack · Shifter · NodeMaven · Webshare · DataImpulse · Proxy-Seller · Geonix · Proxy6 · Proxy-Cheap
+`Proxy Store` · `Bright Data` · `Oxylabs` · `Decodo` · `NetNut` · `SOAX` · `IPRoyal` · `Rayobyte` · `Infatica` · `ProxyEmpire` · `ProxyRack` · `Shifter` · `NodeMaven` · `Webshare` · `DataImpulse` · `Proxy-Seller` · `Geonix` · `Proxy6` · `Proxy-Cheap`
 
 You save the provider's proxy list as a `.txt` file and load it in GhostVPN (login and password supported).
 
 ### 🆓 Free proxy lists
 
 Free `IP:port` lists you can download as `.txt` and check in the built-in proxy tester:
-Advanced.name · Spys.one · FreeProxy.world · Free-Proxy.cz · Geonix · FloppyData · Proxy5.net · RoundProxies · ProxyScrape · Free-Proxy-List.net · IPRoyal (free) · NodeMaven
+`Advanced.name` · `Spys.one` · `FreeProxy.world` · `Free-Proxy.cz` · `Geonix` · `FloppyData` · `Proxy5.net` · `RoundProxies` · `ProxyScrape` · `Free-Proxy-List.net` · `IPRoyal (free)` · `NodeMaven`
 
 ### 🖥️ Your own server
 
 | Server | What it is |
 |---|---|
-| Squid | your own HTTP proxy on a VPS, only for you |
-| Shadowsocks | your own encrypted tunnel on a VPS, hard to block |
+| `Squid` | your own HTTP proxy on a VPS, only for you |
+| `Shadowsocks` | your own encrypted tunnel on a VPS, hard to block |
 
 GhostVPN creates the file `SERWER Squid + Shadowsocks.txt` with copy-paste commands to set them up.
 
