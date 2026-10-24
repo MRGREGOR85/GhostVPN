@@ -53,7 +53,7 @@ GhostVPN does not sell VPN. You use your own account with one of these providers
 
 | Provider | How servers get into GhostVPN |
 |---|---|
-| NordVPN | ⚡ automatic, one click (5000+ servers) |
+| NordVPN (shown as **OpenVPN** in the list) | ⚡ automatic, one click (5000+ servers) |
 | PrivadoVPN | ⚡ automatic, one click |
 | PIA VPN | ⚡ automatic, one click |
 | IPVanish | ⚡ automatic, one click |
@@ -75,13 +75,13 @@ GhostVPN does not sell VPN. You use your own account with one of these providers
 
 ### 🆓 Free VPN
 
-| Source | What it is |
-|---|---|
-| VPN Gate | free public OpenVPN servers |
-| IPSpeed | free public OpenVPN servers |
-| WireGuard | your own `.conf` file, e.g. from a provider's free plan |
-| ProtonVPN Free | free plan: OpenVPN files from Proton |
-| PrivadoVPN Free | free plan: OpenVPN files from Privado |
+| Source | Protocol | How servers get into GhostVPN |
+|---|---|---|
+| VPN Gate | OpenVPN | ⚡ automatic, one click: free public servers (each profile checked) |
+| IPSpeed | OpenVPN | ⚡ automatic, one click: free public servers (each profile checked) |
+| WireGuard | WireGuard | 📁 your own `.conf` file (FOLDER button) |
+
+No account and no login needed for VPN Gate and IPSpeed.
 
 > ⚠️ Free public servers are slower and run by strangers. For banking and important logins use a paid VPN.
 
