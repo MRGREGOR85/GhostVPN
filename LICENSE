@@ -1,0 +1,77 @@
+GHOSTVPN - LICENCJA UZYTKOWNIKA KONCOWEGO / END USER LICENSE
+Copyright (c) 2026 MRGREGOR85. Wszelkie prawa zastrzezone / All rights reserved.
+
+=============================== PL ===============================
+
+1. WLASCICIEL
+   GhostVPN (kod, wyglad, logo z piratem, nazwa i dokumentacja) jest wylaczna wlasnoscia
+   autora - MRGREGOR85. Licencja nie przenosi na Ciebie zadnych praw autorskich.
+
+2. CO WOLNO
+   Wolno pobrac GhostVPN z oficjalnego zrodla i uzywac go na wlasnym komputerze,
+   wylacznie do prywatnego, domowego i niekomercyjnego uzytku.
+   Oficjalne zrodla to tylko miejsca, w ktorych autor sam opublikowal program
+   (repozytorium github.com/MRGREGOR85/GhostVPN i strona autora).
+
+3. CZEGO NIE WOLNO (bez pisemnej zgody autora)
+   - przekazywac, wysylac ani udostepniac programu innym osobom, w calosci ani w czesci
+     (kazdy pobiera go sam z oficjalnego zrodla),
+   - publikowac go na innych stronach, forach, serwerach, w chmurze ani w repozytoriach,
+   - sprzedawac go, wypozyczac, dolaczac do innych produktow ani zarabiac na nim w zaden sposob,
+   - uzywac go w firmie, instytucji ani do swiadczenia uslug innym osobom,
+   - zmieniac go, tlumaczyc kodu, tworzyc na jego podstawie innych programow
+     ani wydawac zmienionych wersji,
+   - usuwac lub zmieniac informacji o autorze, nazwy i logo.
+
+4. ODPOWIEDZIALNOSC
+   Program jest dostarczany "TAK JAK JEST", bez zadnej gwarancji. Autor nie odpowiada
+   za szkody wynikle z jego uzycia, w tym za zmiany w Zaporze Windows, DNS, proxy i sieci.
+   Uzytkownik sam odpowiada za zgodne z prawem korzystanie z programu oraz z uslug
+   dostawcow VPN i proxy (wlasne konta i ich regulaminy).
+
+5. ZEWNETRZNE SKLADNIKI
+   Program korzysta z niezaleznych programow i uslug na ich wlasnych licencjach
+   (m.in. OpenVPN, WireGuard, biblioteki Python). Dane mapy (c) wspoltworcy OpenStreetMap
+   (www.openstreetmap.org/copyright). Ta licencja ich nie obejmuje.
+
+6. ZAKONCZENIE
+   Zlamanie ktoregokolwiek warunku konczy prawo do uzywania programu - nalezy go wtedy usunac.
+
+Zgode na inne wykorzystanie mozna uzyskac kontaktujac sie z autorem: github.com/MRGREGOR85
+
+=============================== EN ===============================
+
+1. OWNERSHIP
+   GhostVPN (code, design, pirate logo, name and documentation) is the exclusive property
+   of its author, MRGREGOR85. This license does not transfer any copyright to you.
+
+2. WHAT YOU MAY DO
+   You may download GhostVPN from an official source and use it on your own computer,
+   solely for private, home and non-commercial use.
+   Official sources are only the places where the author has published the program
+   (the github.com/MRGREGOR85/GhostVPN repository and the author's website).
+
+3. WHAT YOU MAY NOT DO (without the author's written permission)
+   - give, send or share the program with other people, in whole or in part
+     (everyone downloads it themselves from an official source),
+   - publish it on other websites, forums, servers, cloud storage or repositories,
+   - sell, rent or bundle it, or make money from it in any way,
+   - use it in a company or institution, or to provide services to others,
+   - modify it, translate its code, create derivative works or release modified versions,
+   - remove or alter the author information, name or logo.
+
+4. LIABILITY
+   The program is provided "AS IS", without warranty of any kind. The author is not liable
+   for any damage arising from its use, including changes to Windows Firewall, DNS, proxy
+   and network settings. You are responsible for using the program, and the services of your
+   VPN and proxy providers (your own accounts and their terms), lawfully.
+
+5. THIRD-PARTY COMPONENTS
+   The program uses independent software and services under their own licenses
+   (including OpenVPN, WireGuard and Python libraries). Map data (c) OpenStreetMap
+   contributors (www.openstreetmap.org/copyright). They are not covered by this license.
+
+6. TERMINATION
+   Breaking any of these terms ends your right to use the program - you must then delete it.
+
+For any other use, contact the author: github.com/MRGREGOR85
