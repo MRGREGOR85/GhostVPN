@@ -19,7 +19,12 @@ NordVPN, ProtonVPN, ExpressVPN, PrivadoVPN, Surfshark, AirVPN, CyberGhost, PIA V
 <details>
 <summary><b>Are there free servers?</b></summary>
 
-Yes: **VPN Gate** and **IPSpeed** (free public servers) and **WireGuard** with your own `.conf` file. ProtonVPN Free and PrivadoVPN Free profiles work too.
+Yes, three:
+- **VPN Gate**: free public OpenVPN servers, downloaded automatically (**SETTINGS → ADVANCED → VPN GATE → UPDATE**),
+- **IPSpeed**: free public OpenVPN servers, downloaded automatically (**SETTINGS → ADVANCED → IPSPEED → UPDATE**),
+- **WireGuard**: your own `.conf` file.
+
+No account and no login are needed for VPN Gate and IPSpeed.
 
 Free public servers are slower and run by strangers. For banking and important logins use a paid VPN.
 </details>
