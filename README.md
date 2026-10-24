@@ -45,6 +45,66 @@ You keep your own VPN account (NordVPN, Surfshark, ProtonVPN, Mullvad and many m
 | <img src="docs/images/features/skorki-jezyk.png" width="48"> | **Skins and tray** | 20 colour themes, Polish and English, works from the tray next to the clock. |
 | <img src="docs/images/features/darmowe-vpn.png" width="48"> | **Free VPN** | Ready entries for VPN Gate and IPSpeed public servers. |
 
+## 🌍 Supported providers
+
+GhostVPN does not sell VPN. You use your own account with one of these providers, or the free servers.
+
+### 💳 Paid VPN (OpenVPN)
+
+| Provider | How servers get into GhostVPN |
+|---|---|
+| NordVPN | ⚡ automatic, one click (5000+ servers) |
+| PrivadoVPN | ⚡ automatic, one click |
+| PIA VPN | ⚡ automatic, one click |
+| IPVanish | ⚡ automatic, one click |
+| PureVPN | ⚡ automatic, one click |
+| VyprVPN | ⚡ automatic, one click |
+| IVPN | ⚡ automatic, one click |
+| FastVPN (Namecheap) | ⚡ automatic, one click |
+| OVPN.com | ⚡ automatic, one click |
+| Mullvad VPN | 🔑 automatic with your account number (OpenVPN + WireGuard) |
+| AirVPN | 🔑 automatic with your Direct Link |
+| CyberGhost | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| PrivateVPN | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| Perfect Privacy | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| HMA VPN | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| TorGuard | 📁 files from the provider's website (WEBSITE + FOLDER buttons) |
+| ProtonVPN | 📁 `.ovpn` files from the provider's website |
+| ExpressVPN | 📁 `.ovpn` files from the provider's website |
+| Surfshark | 📁 `.ovpn` files from the provider's website |
+
+### 🆓 Free VPN
+
+| Source | What it is |
+|---|---|
+| VPN Gate | free public OpenVPN servers |
+| IPSpeed | free public OpenVPN servers |
+| WireGuard | your own `.conf` file, e.g. from a provider's free plan |
+| ProtonVPN Free | free plan: OpenVPN files from Proton |
+| PrivadoVPN Free | free plan: OpenVPN files from Privado |
+
+> ⚠️ Free public servers are slower and run by strangers. For banking and important logins use a paid VPN.
+
+### 💼 Paid proxy
+
+Proxy Store · Bright Data · Oxylabs · Decodo · NetNut · SOAX · IPRoyal · Rayobyte · Infatica · ProxyEmpire · ProxyRack · Shifter · NodeMaven · Webshare · DataImpulse · Proxy-Seller · Geonix · Proxy6 · Proxy-Cheap
+
+You save the provider's proxy list as a `.txt` file and load it in GhostVPN (login and password supported).
+
+### 🆓 Free proxy lists
+
+Free `IP:port` lists you can download as `.txt` and check in the built-in proxy tester:
+Advanced.name · Spys.one · FreeProxy.world · Free-Proxy.cz · Geonix · FloppyData · Proxy5.net · RoundProxies · ProxyScrape · Free-Proxy-List.net · IPRoyal (free) · NodeMaven
+
+### 🖥️ Your own server
+
+| Server | What it is |
+|---|---|
+| Squid | your own HTTP proxy on a VPS, only for you |
+| Shadowsocks | your own encrypted tunnel on a VPS, hard to block |
+
+GhostVPN creates the file `SERWER Squid + Shadowsocks.txt` with copy-paste commands to set them up.
+
 ## 🔐 How it works
 
 | | OpenVPN | WireGuard | Proxy |
