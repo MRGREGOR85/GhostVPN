@@ -45,19 +45,6 @@ You keep your own VPN account (NordVPN, Surfshark, ProtonVPN, Mullvad and many m
 | <img src="docs/images/features/skorki-jezyk.png" width="48"> | **Skins and tray** | 20 colour themes, Polish and English, works from the tray next to the clock. |
 | <img src="docs/images/features/darmowe-vpn.png" width="48"> | **Free VPN** | Ready entries for VPN Gate and IPSpeed public servers. |
 
-## 📸 Screenshots
-
-<table>
-<tr>
-<td width="50%"><img src="docs/images/screen-main.jpg" alt="Main screen"></td>
-<td width="50%"><img src="docs/images/screen-providers.jpg" alt="Choosing a provider"></td>
-</tr>
-<tr>
-<td align="center"><b>Main screen</b>: servers, map, live charts</td>
-<td align="center"><b>Providers</b>: OpenVPN, WireGuard and proxy in one place</td>
-</tr>
-</table>
-
 ## 🔐 How it works
 
 | | OpenVPN | WireGuard | Proxy |
