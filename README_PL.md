@@ -12,7 +12,9 @@
 [![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-szybki-start)
 [![Licencja](https://img.shields.io/badge/licencja-tylko%20u%C5%BCytek%20domowy-red?style=for-the-badge)](LICENSE)
 
-## [⬇ Pobierz GhostVPN](https://github.com/MRGREGOR85/GhostVPN-BETA/releases/latest/download/GhostVPN_portable.zip)
+<a href="https://github.com/MRGREGOR85/GhostVPN-BETA/releases/latest/download/GhostVPN_portable.zip"><img src="docs/images/download_pl.png" alt="Pobierz GhostVPN" width="380"></a>
+
+<sub>Windows 10 i 11 · 64-bit · jeden plik .zip, bez instalatora</sub>
 
 ### [🌐 Strona GhostVPN](https://mrgregor85.github.io/GhostVPN-BETA/pl.html)
 
