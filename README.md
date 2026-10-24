@@ -2,14 +2,14 @@
 
 <img src="docs/images/banner.svg" alt="GhostVPN terminal: root@ghost-net:~# ghostvpn --connect --stealth" width="100%">
 
-# GhostVPN BETA · Windows 10/11
+<img src="docs/images/h/en-ghostvpn-v4926-beta-windows-1011.svg" alt="GhostVPN v4.9.26-BETA · Windows 10/11" height="49">
 
-## Secure. Encrypted. Invisible.
+<img src="docs/images/h/en-secure-encrypted-invisible.svg" alt="Secure. Encrypted. Invisible." height="40">
 
 ### Change your IP in one click: OpenVPN, WireGuard, Shadowsocks and proxy in one dark, fast program for Windows.
 
 [![Version](https://img.shields.io/badge/version-4.9.26--BETA-2ee66b?style=for-the-badge)](../../releases/latest)
-[![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-quick-start)
+[![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#quick-start)
 [![License](https://img.shields.io/badge/license-home%20use%20only-red?style=for-the-badge)](LICENSE)
 
 ## [⬇ Download GhostVPN](../../releases/latest)
@@ -22,7 +22,9 @@
 
 <img src="docs/images/screen-main.jpg" alt="GhostVPN main screen" width="100%">
 
-## 👻 What is GhostVPN?
+<a id="what-is-ghostvpn"></a>
+
+<img src="docs/images/h/en-what-is-ghostvpn.svg" alt="WHAT IS GHOSTVPN?" height="37">
 
 ### GhostVPN hides your real IP address.
 
@@ -30,7 +32,9 @@ It connects you to a VPN server or proxy of your choice, and websites see the se
 
 You keep your own VPN account (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` and many more) or use free servers. GhostVPN replaces all their separate apps with **one window**: pick a country, click **CONNECT VPN**, done.
 
-## 🚀 Quick start
+<a id="quick-start"></a>
+
+<img src="docs/images/h/en-quick-start.svg" alt="QUICK START" height="37">
 
 1. **Download** `GhostVPN_portable.zip` from [Releases](../../releases/latest) and unzip it, e.g. to `C:\GhostVPN`.
 2. **Run** `URUCHOM_GHOST.bat` and click **Yes** when Windows asks for administrator rights.
@@ -42,7 +46,9 @@ You keep your own VPN account (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` an
 
 👉 Step by step: **[User guide](docs/USER_GUIDE.md)** · Problems: **[FAQ](docs/FAQ.md)**
 
-## ✨ Features
+<a id="features"></a>
+
+<img src="docs/images/h/en-features.svg" alt="FEATURES" height="37">
 
 | | Feature | What it does |
 |:-:|---|---|
@@ -61,7 +67,9 @@ You keep your own VPN account (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` an
 | <img src="docs/images/features/skorki-jezyk.png" width="48"> | **Skins and tray** | 20 colour themes, Polish and English, works from the tray next to the clock. |
 | <img src="docs/images/features/darmowe-vpn.png" width="48"> | **Free VPN** | Ready entries for VPN Gate and IPSpeed public servers. |
 
-## 🌍 Supported providers
+<a id="supported-providers"></a>
+
+<img src="docs/images/h/en-supported-providers.svg" alt="SUPPORTED PROVIDERS" height="37">
 
 ### GhostVPN does not sell VPN: you use your own account, or the free servers.
 
@@ -137,7 +145,9 @@ GhostVPN creates the file `SERWER Squid + Shadowsocks.txt` with copy-paste comma
 
 </details>
 
-## 🔐 OpenVPN, WireGuard or proxy?
+<a id="openvpn-wireguard-or-proxy"></a>
+
+<img src="docs/images/h/en-openvpn-wireguard-or-proxy.svg" alt="OPENVPN, WIREGUARD OR PROXY?" height="37">
 
 | | OpenVPN | WireGuard | Proxy |
 |---|---|---|---|
@@ -150,7 +160,9 @@ GhostVPN creates the file `SERWER Squid + Shadowsocks.txt` with copy-paste comma
 
 Your VPN login is encrypted by Windows (DPAPI) and stays on your computer. GhostVPN has no account, no ads and no tracking.
 
-## 📜 License
+<a id="license"></a>
+
+<img src="docs/images/h/en-license.svg" alt="LICENSE" height="37">
 
 ### GhostVPN belongs solely to its author, MRGREGOR85. Private home use only.
 
@@ -160,7 +172,9 @@ Full text: [LICENSE](LICENSE). You can also read it in the program: **SETTINGS �
 
 GhostVPN is an independent program and is not affiliated with any VPN or proxy provider. Map data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
 
-## 👨‍💻 Author
+<a id="author"></a>
+
+<img src="docs/images/h/en-author.svg" alt="AUTHOR" height="37">
 
 <img src="docs/images/logo.png" alt="MRGREGOR85" width="110" align="left">
 
