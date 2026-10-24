@@ -1,12 +1,13 @@
 <div align="center">
 
-<img src="docs/images/banner.svg" alt="GhostVPN terminal: root@ghost-net:~# ghostvpn --connect --stealth" width="100%">
 
-<img src="docs/images/h/pl-ghostvpn-v4926-beta-windows-1011.svg" alt="GhostVPN v4.9.26-BETA · Windows 10/11" height="49">
+<p><img src="docs/images/banner.svg" alt="GhostVPN terminal: root@ghost-net:~# ghostvpn --connect --stealth" width="100%"></p>
 
-<img src="docs/images/h/pl-bezpieczne-szyfrowane-niewidoczne.svg" alt="Bezpieczne. Szyfrowane. Niewidoczne." height="40">
+<p><img src="docs/images/h/pl-ghostvpn-v4926-beta-windows-1011.svg" alt="GhostVPN v4.9.26-BETA · Windows 10/11" height="49"></p>
 
-### Zmień IP jednym kliknięciem: OpenVPN, WireGuard, Shadowsocks i proxy w jednym ciemnym, szybkim programie dla Windows.
+<p><img src="docs/images/h/pl-bezpieczne-szyfrowane-niewidoczne.svg" alt="Bezpieczne. Szyfrowane. Niewidoczne." height="40"></p>
+
+<p><img src="docs/images/t/pl-01.svg" alt="Zmień IP jednym kliknięciem: OpenVPN, WireGuard, Shadowsocks i proxy w jednym ciemnym, szybkim programie dla Windows." height="60"></p>
 
 [![Wersja](https://img.shields.io/badge/wersja-4.9.26--BETA-2ee66b?style=for-the-badge)](../../releases/latest)
 [![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#szybki-start)
@@ -16,25 +17,24 @@
 
 [🇬🇧 English](README.md) · **🇵🇱 Polski** · [Instrukcja (EN)](docs/USER_GUIDE.md) · [FAQ (EN)](docs/FAQ.md) · [Licencja](LICENSE)
 
-</div>
 
 ---
 
-<img src="docs/images/screen-main.jpg" alt="Ekran główny GhostVPN" width="100%">
+<p><img src="docs/images/screen-main.jpg" alt="Ekran główny GhostVPN" width="100%"></p>
 
 <a id="czym-jest-ghostvpn"></a>
 
-<img src="docs/images/h/pl-czym-jest-ghostvpn.svg" alt="CZYM JEST GHOSTVPN?" height="37">
+<p><img src="docs/images/h/pl-czym-jest-ghostvpn.svg" alt="CZYM JEST GHOSTVPN?" height="37"></p>
 
-### GhostVPN ukrywa Twój prawdziwy adres IP.
+<p><img src="docs/images/t/pl-02.svg" alt="GhostVPN ukrywa Twój prawdziwy adres IP." height="34"></p>
 
-Łączy Cię z wybranym serwerem VPN albo proxy, a strony internetowe widzą IP serwera zamiast Twojego.
+<p><img src="docs/images/t/pl-03.svg" alt="Łączy Cię z wybranym serwerem VPN albo proxy, a strony internetowe widzą IP serwera zamiast Twojego." height="60"></p>
 
-Korzystasz z własnego konta VPN (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` i wielu innych) albo z darmowych serwerów. GhostVPN zastępuje wszystkie ich osobne aplikacje **jednym oknem**: wybierasz kraj, klikasz **POŁĄCZ VPN** i gotowe.
+<p><img src="docs/images/t/pl-04.svg" alt="Korzystasz z własnego konta VPN (NordVPN, Surfshark, ProtonVPN, Mullvad i wielu innych) albo z darmowych serwerów. GhostVPN zastępuje wszystkie ich osobne aplikacje jednym oknem: wybierasz kraj, klikasz POŁĄCZ VPN i gotowe." height="112"></p>
 
 <a id="szybki-start"></a>
 
-<img src="docs/images/h/pl-szybki-start.svg" alt="SZYBKI START" height="37">
+<p><img src="docs/images/h/pl-szybki-start.svg" alt="SZYBKI START" height="37"></p>
 
 1. **Pobierz** `GhostVPN_portable.zip` z [Releases](../../releases/latest) i rozpakuj, np. do `C:\GhostVPN`.
 2. **Uruchom** `URUCHOM_GHOST.bat` i kliknij **Tak**, gdy Windows zapyta o uprawnienia administratora.
@@ -48,7 +48,7 @@ Korzystasz z własnego konta VPN (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad`
 
 <a id="funkcje"></a>
 
-<img src="docs/images/h/pl-funkcje.svg" alt="FUNKCJE" height="37">
+<p><img src="docs/images/h/pl-funkcje.svg" alt="FUNKCJE" height="37"></p>
 
 | | Funkcja | Co robi |
 |:-:|---|---|
@@ -69,24 +69,24 @@ Korzystasz z własnego konta VPN (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad`
 
 <a id="obslugiwani-dostawcy"></a>
 
-<img src="docs/images/h/pl-obslugiwani-dostawcy.svg" alt="OBSŁUGIWANI DOSTAWCY" height="37">
+<p><img src="docs/images/h/pl-obslugiwani-dostawcy.svg" alt="OBSŁUGIWANI DOSTAWCY" height="37"></p>
 
-### GhostVPN nie sprzedaje VPN: korzystasz z własnego konta albo z darmowych serwerów.
+<p><img src="docs/images/t/pl-05.svg" alt="GhostVPN nie sprzedaje VPN: korzystasz z własnego konta albo z darmowych serwerów." height="60"></p>
 
 | 💳 Płatne VPN | 🆓 Darmowe VPN | 🔧 Własny WireGuard | 💼 Płatne proxy |
 |:-:|:-:|:-:|:-:|
 | **19 dostawców** | `VPN Gate` · `IPSpeed` | **Twój plik `.conf`** | **19 dostawców** |
 
-### 🆓 Darmowe VPN (OpenVPN): bez konta, bez płacenia
+<p><img src="docs/images/t/pl-06.svg" alt="Darmowe VPN (OpenVPN): bez konta, bez płacenia" height="34"></p>
 
 | Dostawca | Jak serwery trafiają do GhostVPN |
 |---|---|
 | `VPN Gate` | ⚡ automatycznie, jednym kliknięciem: darmowe serwery publiczne |
 | `IPSpeed` | ⚡ automatycznie, jednym kliknięciem: darmowe serwery publiczne |
 
-Gdzie: **USTAWIENIA → ZAAWANSOWANE → 🆓 DARMOWE VPN → UPDATE**. Każdy pobrany profil jest sprawdzany przed zapisaniem.
+<p><img src="docs/images/t/pl-07.svg" alt="Gdzie: USTAWIENIA → ZAAWANSOWANE →  DARMOWE VPN → UPDATE. Każdy pobrany profil jest sprawdzany przed zapisaniem." height="60"></p>
 
-> ⚠️ Darmowe serwery publiczne są wolniejsze i prowadzą je obce osoby. Do bankowości i ważnych logowań używaj płatnego VPN.
+<p><img src="docs/images/t/pl-08.svg" alt="Darmowe serwery publiczne są wolniejsze i prowadzą je obce osoby. Do bankowości i ważnych logowań używaj płatnego VPN." height="60"></p>
 
 <details>
 <summary><b>💳 Płatne VPN: wszystkich 19 dostawców (kliknij, aby pokazać)</b></summary>
@@ -147,7 +147,7 @@ GhostVPN tworzy plik `SERWER Squid + Shadowsocks.txt` z gotowymi komendami do sk
 
 <a id="openvpn-wireguard-czy-proxy"></a>
 
-<img src="docs/images/h/pl-openvpn-wireguard-czy-proxy.svg" alt="OPENVPN, WIREGUARD CZY PROXY?" height="37">
+<p><img src="docs/images/h/pl-openvpn-wireguard-czy-proxy.svg" alt="OPENVPN, WIREGUARD CZY PROXY?" height="37"></p>
 
 | | OpenVPN | WireGuard | Proxy |
 |---|---|---|---|
@@ -158,15 +158,15 @@ GhostVPN tworzy plik `SERWER Squid + Shadowsocks.txt` z gotowymi komendami do sk
 | Kill Switch | ✔ | ✔ | — |
 | Najlepsze do | na co dzień, sieci z blokadami | gry, streaming | szybka zmiana IP w przeglądarce |
 
-Twój login VPN jest szyfrowany przez Windows (DPAPI) i zostaje na Twoim komputerze. GhostVPN nie ma konta, reklam ani śledzenia.
+<p><img src="docs/images/t/pl-09.svg" alt="Twój login VPN jest szyfrowany przez Windows (DPAPI) i zostaje na Twoim komputerze. GhostVPN nie ma konta, reklam ani śledzenia." height="86"></p>
 
 <a id="licencja"></a>
 
-<img src="docs/images/h/pl-licencja.svg" alt="LICENCJA" height="37">
+<p><img src="docs/images/h/pl-licencja.svg" alt="LICENCJA" height="37"></p>
 
-### GhostVPN należy wyłącznie do autora, MRGREGOR85. Tylko do prywatnego, domowego użytku.
+<p><img src="docs/images/t/pl-10.svg" alt="GhostVPN należy wyłącznie do autora, MRGREGOR85. Tylko do prywatnego, domowego użytku." height="60"></p>
 
-Możesz pobrać go z tej strony i używać na własnym komputerze. **Nie wolno** go dawać innym osobom, wrzucać gdzie indziej, sprzedawać, używać w firmie ani zmieniać. Każdy pobiera swoją kopię z tej oficjalnej strony.
+<p><img src="docs/images/t/pl-11.svg" alt="Możesz pobrać go z tej strony i używać na własnym komputerze. Nie wolno go dawać innym osobom, wrzucać gdzie indziej, sprzedawać, używać w firmie ani zmieniać. Każdy pobiera swoją kopię z tej oficjalnej strony." height="112"></p>
 
 Pełny tekst: [LICENSE](LICENSE). Licencję przeczytasz też w programie: **USTAWIENIA → 📜 LICENCJA**.
 
@@ -174,16 +174,18 @@ GhostVPN to niezależny program, niezwiązany z żadnym dostawcą VPN ani proxy.
 
 <a id="autor"></a>
 
-<img src="docs/images/h/pl-autor.svg" alt="AUTOR" height="37">
+<p><img src="docs/images/h/pl-autor.svg" alt="AUTOR" height="37"></p>
 
 <img src="docs/images/logo.png" alt="MRGREGOR85" width="110" align="left">
 
-### MRGREGOR85
+<p><img src="docs/images/t/pl-12.svg" alt="MRGREGOR85" height="34"></p>
 
 [github.com/MRGREGOR85](https://github.com/MRGREGOR85)
 
-Pirat stojący za GhostVPN. Robię programy dla ludzi, którzy chcą być niewidoczni w internecie.
+<p><img src="docs/images/t/pl-13.svg" alt="Pirat stojący za GhostVPN. Robię programy dla ludzi, którzy chcą być niewidoczni w internecie." height="60"></p>
 
 <br clear="left">
 
-### Jeśli GhostVPN Ci pomaga, zostaw ⭐
+<p><img src="docs/images/t/pl-14.svg" alt="Jeśli GhostVPN Ci pomaga, zostaw" height="34"></p>
+
+</div>
