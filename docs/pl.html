@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GhostVPN v4.9.26-BETA · Windows 10/11</title>
+<meta name="description" content="Zmień IP jednym kliknięciem: OpenVPN, WireGuard, Shadowsocks i proxy w jednym ciemnym, szybkim programie dla Windows.">
+<link rel="icon" href="images/logo.png">
+<style>
+:root{--g:#2ee66b;--g2:#9fe8b8;--g3:#1a9c4a;--bg:#05090706;--bg:#060b08;--panel:#0b1410;--line:#1a9c4a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--g);font:16px/1.65 Consolas,"Cascadia Mono","DejaVu Sans Mono",monospace;text-align:center}
+a{color:var(--g)}
+::selection{background:var(--g);color:#000}
+.wrap{max-width:980px;margin:0 auto;padding:24px 16px 60px}
+.banner{width:100%;height:auto;display:block;border-radius:14px}
+h1{font-size:clamp(26px,4.6vw,40px);margin:28px 0 6px;letter-spacing:.5px}
+h2.tag{font-size:clamp(20px,3.4vw,28px);margin:0 0 14px;font-weight:700}
+h2{font-size:clamp(20px,3vw,26px);margin:56px 0 18px}
+h2::before{content:"> ";color:var(--g3)}
+h3{font-size:19px;margin:28px 0 10px}
+p{margin:10px auto;max-width:760px;color:var(--g2)}
+p.lead{font-size:19px;color:var(--g);font-weight:700}
+.badges,.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:16px 0}
+.badge,.btn{display:inline-block;border:2px solid var(--g);border-radius:8px;padding:6px 14px;color:var(--g);text-decoration:none;font-weight:700;background:var(--panel)}
+.badge{font-size:13px;padding:4px 12px}
+.btn:hover,.badge:hover{background:var(--g);color:#000}
+.big{font-size:22px;padding:12px 34px;border-width:3px;border-radius:12px;margin:8px 0}
+.shot{width:100%;border:2px solid var(--line);border-radius:12px;margin:26px 0 0}
+table{border-collapse:collapse;margin:14px auto;width:100%;max-width:860px;background:var(--panel);border:2px solid var(--g);border-radius:8px;overflow:hidden;text-align:left}
+th,td{border:1px solid var(--line);padding:10px 12px;vertical-align:middle}
+th{background:#10241a;color:var(--g)}
+td{color:var(--g2)}
+td:first-child,th:first-child{color:var(--g);font-weight:700}
+td.ico{width:62px;text-align:center}
+td.ico img{width:44px;height:44px;display:block;margin:auto}
+ol.steps{display:inline-block;text-align:left;max-width:760px;color:var(--g2);padding-left:1.4em}
+ol.steps li{margin:6px 0}
+ol.steps b,p b,td b{color:var(--g)}
+code{background:#10241a;color:var(--g);padding:1px 6px;border-radius:4px}
+.note{border:1px dashed var(--g3);border-radius:8px;padding:10px 16px;max-width:760px;margin:14px auto;color:var(--g2)}
+details{max-width:860px;margin:12px auto;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+summary{cursor:pointer;padding:10px 14px;font-weight:700;color:var(--g);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"[+] ";color:var(--g3)}
+details[open] summary::before{content:"[-] "}
+details>div{padding:0 14px 12px}
+.names{color:var(--g2);max-width:800px;margin:8px auto}
+.author img{width:150px;border-radius:50%;border:2px solid var(--g)}
+footer{margin-top:60px;color:var(--g3);font-size:13px}
+.cursor{display:inline-block;width:.6em;background:var(--g);animation:b 1s step-end infinite}
+@keyframes b{50%{opacity:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<img class="banner" src="images/banner.svg" alt="root@ghost-net:~# ghostvpn --connect --stealth">
+
+<h1>GhostVPN v4.9.26-BETA · Windows 10/11</h1>
+<h2 class="tag">Bezpieczne. Szyfrowane. Niewidoczne.<span class="cursor">&nbsp;</span></h2>
+<p class="lead">Zmień IP jednym kliknięciem: OpenVPN, WireGuard, Shadowsocks i proxy w jednym ciemnym, szybkim programie dla Windows.</p>
+
+<div class="badges"><a class="badge" href="https://github.com/MRGREGOR85/GhostVPN-BETA/releases/latest">WERSJA  4.9.26-BETA</a><a class="badge" href="#szybki-start">WINDOWS  10 | 11</a><a class="badge" href="https://github.com/MRGREGOR85/GhostVPN-BETA/blob/main/LICENSE">LICENCJA  TYLKO UŻYTEK DOMOWY</a></div>
+<a class="btn big" href="https://github.com/MRGREGOR85/GhostVPN-BETA/releases/latest">⬇ POBIERZ GHOSTVPN</a>
+<div class="btns">
+<a class="btn" href="index.html">English</a>
+<a class="btn" href="https://github.com/MRGREGOR85/GhostVPN-BETA/blob/main/docs/USER_GUIDE.md">Instrukcja</a>
+<a class="btn" href="https://github.com/MRGREGOR85/GhostVPN-BETA/blob/main/docs/FAQ.md">FAQ</a>
+<a class="btn" href="https://github.com/MRGREGOR85/GhostVPN-BETA/blob/main/LICENSE">Licencja</a>
+<a class="btn" href="https://github.com/MRGREGOR85/GhostVPN-BETA">GitHub</a>
+</div>
+
+<img class="shot" src="images/screen-main.jpg" alt="Ekran główny GhostVPN">
+
+<h2 id="czym-jest-ghostvpn">CZYM JEST GHOSTVPN?</h2>
+<p class="lead">GhostVPN ukrywa Twój prawdziwy adres IP.</p>
+<p>Łączy Cię z wybranym serwerem VPN albo proxy, a strony internetowe widzą IP serwera zamiast Twojego.</p>
+<p>Korzystasz z własnego konta VPN (NordVPN, Surfshark, ProtonVPN, Mullvad i wielu innych) albo z darmowych serwerów. GhostVPN zastępuje wszystkie ich osobne aplikacje jednym oknem: wybierasz kraj, klikasz <b>POŁĄCZ VPN</b> i gotowe.</p>
+
+<h2 id="szybki-start">SZYBKI START</h2>
+<ol class="steps"><li>Pobierz GhostVPN_portable.zip (przycisk wyżej) i rozpakuj, np. do C:\GhostVPN.</li><li>Uruchom <b>URUCHOM</b>_<b>GHOST</b>.bat i kliknij Tak, gdy Windows zapyta o uprawnienia administratora.</li><li>Wybierz dostawcę w lewym górnym rogu i dodaj serwery: <b>USTAWIENIA → ZAAWANSOWANE → UPDATE</b> albo <b>USTAWIENIA → PRZEGLĄDAJ CONFIG</b> dla własnych plików .ovpn.</li><li>Zapisz login VPN: <b>USTAWIENIA → KONTO VPN</b>.</li><li>Wybierz kraj i serwer, kliknij <b>POŁĄCZ VPN</b>. Mapa pokaże Twoje nowe położenie.</li></ol>
+<p>Potrzebujesz: Windows 10/11 · Python 3.10+ (zaznacz Add Python to <b>PATH</b>) · OpenVPN · uprawnienia administratora. Brakujące biblioteki Pythona instalują się same przy pierwszym uruchomieniu.</p>
+<div class="btns">
+<a class="btn" href="https://www.python.org/downloads/">Python 3.10+</a>
+<a class="btn" href="https://openvpn.net/community-downloads/">OpenVPN</a>
+<a class="btn" href="https://github.com/MRGREGOR85/GhostVPN-BETA/blob/main/docs/USER_GUIDE.md">Instrukcja</a>
+</div>
+
+<h2 id="funkcje">FUNKCJE</h2>
+<table><thead><tr><th></th><th>Funkcja</th><th>Co robi</th></tr></thead><tbody><tr><td class="ico"><img src="images/features/openvpn.png" alt=""></td><td>OpenVPN</td><td>Łączy przez profile .ovpn od 19 dostawców VPN, bez ich aplikacji. UDP albo TCP, automatyczne przejście z UDP na TCP.</td></tr><tr><td class="ico"><img src="images/features/wireguard.png" alt=""></td><td>WireGuard</td><td>Szybki, nowoczesny tunel z Twojego pliku .conf. Program sprawdza handshake, więc wiesz, że tunel naprawdę działa.</td></tr><tr><td class="ico"><img src="images/features/kill-switch.png" alt=""></td><td>Kill Switch</td><td>Zapora Windows blokuje cały ruch poza VPN. Gdy tunel padnie, Twoje prawdziwe IP nie wycieknie.</td></tr><tr><td class="ico"><img src="images/features/najszybsze-serwery.png" alt=""></td><td>Najszybsze serwery</td><td>Ping na żywo dla każdego serwera i Smart Connect do najszybszego jednym kliknięciem. Zakładki P2P, streaming i gaming.</td></tr><tr><td class="ico"><img src="images/features/bezpieczny-dns.png" alt=""></td><td>Bezpieczny DNS</td><td>Ustawia Cloudflare, Quad9, AdGuard albo OpenDNS dla IPv4 i IPv6 oraz czyści pamięć DNS.</td></tr><tr><td class="ico"><img src="images/features/test-dns.png" alt=""></td><td>Testy wycieków</td><td>Test wycieku DNS i test WebRTC: sprawdzasz, czy nic nie zdradza Twojego prawdziwego IP.</td></tr><tr><td class="ico"><img src="images/features/proxy.png" alt=""></td><td>Proxy</td><td>Proxy SOCKS5 i HTTP z logowaniem, lokalny most i Firefox uruchamiany przez proxy. 19 płatnych dostawców proxy.</td></tr><tr><td class="ico"><img src="images/features/tester-proxy.png" alt=""></td><td>Tester proxy</td><td>Wielowątkowy tester list proxy (.txt) z wynikami na żywo: działa albo martwe.</td></tr><tr><td class="ico"><img src="images/features/shadowsocks.png" alt=""></td><td>Shadowsocks</td><td>Szyfrowany tunel, który trudno zablokować, z obsługą linków ss:// i instrukcją własnego serwera.</td></tr><tr><td class="ico"><img src="images/features/cloud-sync.png" alt=""></td><td>Cloud Sync</td><td>Pobiera aktualne listy serwerów NordVPN, PrivadoVPN, PIA, Mullvad, AirVPN i innych jednym kliknięciem.</td></tr><tr><td class="ico"><img src="images/features/trasa-polaczenia.png" alt=""></td><td>Trasa połączenia</td><td>Pokazuje na mapie, przez jakie kraje i węzły idzie Twój ruch.</td></tr><tr><td class="ico"><img src="images/features/speedtest-licznik.png" alt=""></td><td>Speedtest i licznik danych</td><td>Wykresy pobierania i wysyłania na żywo, speedtest i ile danych zużyła sesja.</td></tr><tr><td class="ico"><img src="images/features/skorki-jezyk.png" alt=""></td><td>Skórki i zasobnik</td><td>20 motywów kolorów, polski i angielski, praca z zasobnika obok zegara.</td></tr><tr><td class="ico"><img src="images/features/darmowe-vpn.png" alt=""></td><td>Darmowe VPN</td><td>Gotowe pozycje dla darmowych serwerów publicznych VPN Gate i IPSpeed.</td></tr></tbody></table>
+
+<h2 id="obslugiwani-dostawcy">OBSŁUGIWANI DOSTAWCY</h2>
+<p class="lead">GhostVPN nie sprzedaje VPN: korzystasz z własnego konta albo z darmowych serwerów.</p>
+<table><thead><tr><th>Płatne VPN</th><th>Darmowe VPN</th><th>Własny WireGuard</th><th>Płatne proxy</th></tr></thead><tbody><tr><td>19 dostawców</td><td>VPN Gate · IPSpeed</td><td>Twój plik .conf</td><td>19 dostawców</td></tr></tbody></table>
+<h3>Darmowe VPN (OpenVPN): bez konta, bez płacenia</h3>
+<table><thead><tr><th>Dostawca</th><th>Jak serwery trafiają do GhostVPN</th></tr></thead><tbody><tr><td>VPN Gate</td><td>automatycznie, jednym kliknięciem: darmowe serwery publiczne</td></tr><tr><td>IPSpeed</td><td>automatycznie, jednym kliknięciem: darmowe serwery publiczne</td></tr></tbody></table>
+<p>Gdzie: <b>USTAWIENIA → ZAAWANSOWANE → DARMOWE VPN → UPDATE</b>. Każdy pobrany profil jest sprawdzany przed zapisaniem.</p>
+<div class="note">⚠ Darmowe serwery publiczne są wolniejsze i prowadzą je obce osoby. Do bankowości i ważnych logowań używaj płatnego VPN.</div>
+<details><summary>Płatne VPN: wszystkich 19 dostawców (kliknij, aby pokazać)</summary><div><table><thead><tr><th>Dostawca</th><th>Jak serwery trafiają do GhostVPN</th></tr></thead><tbody><tr><td>NordVPN (na liście jako OpenVPN)</td><td>automatycznie, jednym kliknięciem (ponad 5000 serwerów)</td></tr><tr><td>PrivadoVPN</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>PIA VPN</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>IPVanish</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>PureVPN</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>VyprVPN</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>IVPN</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>FastVPN (Namecheap)</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>OVPN.com</td><td>automatycznie, jednym kliknięciem</td></tr><tr><td>Mullvad VPN</td><td>automatycznie z numerem konta (OpenVPN + WireGuard)</td></tr><tr><td>AirVPN</td><td>automatycznie z Twoim Direct Link</td></tr><tr><td>CyberGhost</td><td>pliki ze strony dostawcy (przyciski STRONA i FOLDER)</td></tr><tr><td>PrivateVPN</td><td>pliki ze strony dostawcy (przyciski STRONA i FOLDER)</td></tr><tr><td>Perfect Privacy</td><td>pliki ze strony dostawcy (przyciski STRONA i FOLDER)</td></tr><tr><td>HMA VPN</td><td>pliki ze strony dostawcy (przyciski STRONA i FOLDER)</td></tr><tr><td>TorGuard</td><td>pliki ze strony dostawcy (przyciski STRONA i FOLDER)</td></tr><tr><td>ProtonVPN</td><td>pliki .ovpn ze strony dostawcy</td></tr><tr><td>ExpressVPN</td><td>pliki .ovpn ze strony dostawcy</td></tr><tr><td>Surfshark</td><td>pliki .ovpn ze strony dostawcy</td></tr></tbody></table></div></details>
+<details><summary>WireGuard: Twój własny plik (kliknij, aby pokazać)</summary><div><p>WireGuard to nie dostawca, tylko szybki protokół VPN. Jeśli Twój dostawca (płatny albo darmowy plan) daje plik WireGuard .conf, wrzuć go do GhostVPN: wybierz WireGuard na liście → <b>USTAWIENIA → PRZEGLĄDAJ CONFIG</b>. Użytkownicy Mullvad dostają pliki WireGuard automatycznie.</p></div></details>
+<details><summary>Płatne proxy i darmowe listy proxy (kliknij, aby pokazać)</summary><div>
+<h3>Płatne proxy</h3><p class="names">Proxy Store · Bright Data · Oxylabs · Decodo · NetNut · SOAX · IPRoyal · Rayobyte · Infatica · ProxyEmpire · ProxyRack · Shifter · NodeMaven · Webshare · DataImpulse · Proxy-Seller · Geonix · Proxy6 · Proxy-Cheap</p><p>Listę proxy od dostawcy zapisujesz jako plik .txt i wczytujesz w GhostVPN (obsługa loginu i hasła).</p>
+<h3>Darmowe listy proxy (IP:port, sprawdzasz je we wbudowanym testerze)</h3><p class="names">Advanced.name · Spys.one · FreeProxy.world · Free-Proxy.cz · Geonix · FloppyData · Proxy5.net · RoundProxies · ProxyScrape · Free-Proxy-List.net · IPRoyal (free) · NodeMaven</p></div></details>
+<details><summary>Własny serwer: Squid i Shadowsocks (kliknij, aby pokazać)</summary><div><table><thead><tr><th>Serwer</th><th>Co to jest</th></tr></thead><tbody><tr><td>Squid</td><td>Twoje własne proxy HTTP na VPS, tylko dla Ciebie</td></tr><tr><td>Shadowsocks</td><td>Twój własny szyfrowany tunel na VPS, trudny do zablokowania</td></tr></tbody></table><p>GhostVPN tworzy plik SERWER Squid + Shadowsocks.txt z gotowymi komendami do skopiowania.</p></div></details>
+
+<h2 id="openvpn-wireguard-czy-proxy">OPENVPN, WIREGUARD CZY PROXY?</h2>
+<table><thead><tr><th></th><th>OpenVPN</th><th>WireGuard</th><th>Proxy</th></tr></thead><tbody><tr><td>Szyfrowanie</td><td>AES-256</td><td>ChaCha20</td><td>tylko HTTPS strony</td></tr><tr><td>Chroni cały system</td><td>tak</td><td>tak</td><td>tylko wybrane aplikacje</td></tr><tr><td>Prędkość</td><td>dobra</td><td>bardzo wysoka</td><td>zależy od serwera</td></tr><tr><td>Łączenie</td><td>kilka sekund</td><td>ułamek sekundy</td><td>natychmiast</td></tr><tr><td>Kill Switch</td><td>tak</td><td>tak</td><td>nie</td></tr><tr><td>Najlepsze do</td><td>na co dzień, sieci z blokadami</td><td>gry, streaming</td><td>szybka zmiana IP w przeglądarce</td></tr></tbody></table>
+<p>Twój login VPN jest szyfrowany przez Windows (DPAPI) i zostaje na Twoim komputerze. GhostVPN nie ma konta, reklam ani śledzenia.</p>
+
+<h2 id="licencja">LICENCJA</h2>
+<p class="lead">GhostVPN należy wyłącznie do autora, MRGREGOR85. Tylko do prywatnego, domowego użytku.</p>
+<p>Możesz pobrać go z tej strony i używać na własnym komputerze. Nie wolno go dawać innym osobom, wrzucać gdzie indziej, sprzedawać, używać w firmie ani zmieniać. Każdy pobiera swoją kopię z tej oficjalnej strony.</p>
+<p>Pełny tekst w pliku <b>LICENSE</b>. Licencję przeczytasz też w programie: <b>USTAWIENIA → LICENCJA</b>.</p>
+<div class="btns"><a class="btn" href="https://github.com/MRGREGOR85/GhostVPN-BETA/blob/main/LICENSE">LICENSE</a></div>
+
+<h2 id="autor">AUTOR</h2>
+<div class="author"><img src="images/logo.png" alt="MRGREGOR85"></div>
+<h3>MRGREGOR85</h3>
+<div class="btns"><a class="btn" href="https://github.com/MRGREGOR85">github.com/MRGREGOR85</a></div>
+<p>Pirat stojący za GhostVPN. Robię programy dla ludzi, którzy chcą być niewidoczni w internecie.</p>
+<p class="lead">Jeśli GhostVPN Ci pomaga, zostaw gwiazdkę ⭐</p>
+
+<footer>GhostVPN to niezależny program, niezwiązany z żadnym dostawcą VPN ani proxy. Dane mapy © współtwórcy OpenStreetMap.<br>GhostVPN © 2026 MRGREGOR85</footer>
+</div>
+</body>
+</html>
