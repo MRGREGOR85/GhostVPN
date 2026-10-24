@@ -1,18 +1,20 @@
 <div align="center">
 
-<img src="docs/images/logo.png" alt="GhostVPN" width="220">
+<img src="docs/images/banner.svg" alt="GhostVPN terminal: root@ghost-net:~# ghostvpn --connect --stealth" width="100%">
 
-# GhostVPN
+# GhostVPN BETA · Windows 10/11
 
-### Secure. Encrypted. Invisible.
-Change your IP in one click: OpenVPN, WireGuard, Shadowsocks and proxy in one dark, fast program for Windows.
+## Secure. Encrypted. Invisible.
 
-[![Version](https://img.shields.io/badge/version-4.9.26--BETA-2ee66b?style=flat-square)](../../releases/latest)
-[![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=flat-square&logo=windows&logoColor=white)](#-requirements)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](#-requirements)
-[![License](https://img.shields.io/badge/license-home%20use%20only-red?style=flat-square)](LICENSE)
+### Change your IP in one click: OpenVPN, WireGuard, Shadowsocks and proxy in one dark, fast program for Windows.
 
-**[⬇ Download GhostVPN](../../releases/latest)** · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
+[![Version](https://img.shields.io/badge/version-4.9.26--BETA-2ee66b?style=for-the-badge)](../../releases/latest)
+[![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-quick-start)
+[![License](https://img.shields.io/badge/license-home%20use%20only-red?style=for-the-badge)](LICENSE)
+
+## [⬇ Download GhostVPN](../../releases/latest)
+
+**🇬🇧 English** · [🇵🇱 Polski](README_PL.md) · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
 
 </div>
 
@@ -20,11 +22,25 @@ Change your IP in one click: OpenVPN, WireGuard, Shadowsocks and proxy in one da
 
 <img src="docs/images/screen-main.jpg" alt="GhostVPN main screen" width="100%">
 
-## What is GhostVPN?
+## 👻 What is GhostVPN?
 
-GhostVPN is a Windows program that hides your real IP address. It connects you to a VPN server or proxy of your choice, and websites see the server's IP instead of yours.
+### GhostVPN hides your real IP address.
 
-You keep your own VPN account (NordVPN, Surfshark, ProtonVPN, Mullvad and many more) or use free servers. GhostVPN replaces all their separate apps with **one window**: pick a country, click **CONNECT VPN**, done.
+It connects you to a VPN server or proxy of your choice, and websites see the server's IP instead of yours.
+
+You keep your own VPN account (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` and many more) or use free servers. GhostVPN replaces all their separate apps with **one window**: pick a country, click **CONNECT VPN**, done.
+
+## 🚀 Quick start
+
+1. **Download** `GhostVPN_portable.zip` from [Releases](../../releases/latest) and unzip it, e.g. to `C:\GhostVPN`.
+2. **Run** `URUCHOM_GHOST.bat` and click **Yes** when Windows asks for administrator rights.
+3. **Choose a provider** in the top-left corner and add servers: **SETTINGS → ADVANCED → UPDATE** or **SETTINGS → BROWSE CONFIG** for your own `.ovpn` files.
+4. **Save your VPN login**: **SETTINGS → VPN ACCOUNT**.
+5. **Pick a country and server**, click **CONNECT VPN**. The map shows your new location.
+
+**You need:** Windows 10/11 · [Python 3.10+](https://www.python.org/downloads/) (tick *Add Python to PATH*) · [OpenVPN](https://openvpn.net/community-downloads/) · administrator rights. Missing Python libraries install themselves on the first start.
+
+👉 Step by step: **[User guide](docs/USER_GUIDE.md)** · Problems: **[FAQ](docs/FAQ.md)**
 
 ## ✨ Features
 
@@ -47,13 +63,25 @@ You keep your own VPN account (NordVPN, Surfshark, ProtonVPN, Mullvad and many m
 
 ## 🌍 Supported providers
 
-GhostVPN does not sell VPN. You use your own account with one of these providers, or the free servers.
+### GhostVPN does not sell VPN: you use your own account, or the free servers.
 
 | 💳 Paid VPN | 🆓 Free VPN | 🔧 Own WireGuard | 💼 Paid proxy |
 |:-:|:-:|:-:|:-:|
 | **19 providers** | `VPN Gate` · `IPSpeed` | **your `.conf` file** | **19 providers** |
 
-### 💳 Paid VPN (OpenVPN)
+### 🆓 Free VPN (OpenVPN): no account, no payment
+
+| Provider | How servers get into GhostVPN |
+|---|---|
+| `VPN Gate` | ⚡ automatic, one click: free public servers |
+| `IPSpeed` | ⚡ automatic, one click: free public servers |
+
+Where: **SETTINGS → ADVANCED → 🆓 DARMOWE VPN (free VPN) → UPDATE**. Every downloaded profile is checked before it is saved.
+
+> ⚠️ Free public servers are slower and run by strangers. For banking and important logins use a paid VPN.
+
+<details>
+<summary><b>💳 Paid VPN: all 19 providers (click to show)</b></summary>
 
 | Provider | How servers get into GhostVPN |
 |---|---|
@@ -77,33 +105,28 @@ GhostVPN does not sell VPN. You use your own account with one of these providers
 | `ExpressVPN` | 📁 `.ovpn` files from the provider's website |
 | `Surfshark` | 📁 `.ovpn` files from the provider's website |
 
-### 🆓 Free VPN (OpenVPN): no account, no payment
+</details>
 
-| Provider | How servers get into GhostVPN |
-|---|---|
-| `VPN Gate` | ⚡ automatic, one click: free public servers |
-| `IPSpeed` | ⚡ automatic, one click: free public servers |
-
-Where: **SETTINGS → ADVANCED → 🆓 DARMOWE VPN (free VPN) → UPDATE**. Every downloaded profile is checked before it is saved.
-
-> ⚠️ Free public servers are slower and run by strangers. For banking and important logins use a paid VPN.
-
-### 🔧 WireGuard: your own file
+<details>
+<summary><b>🔧 WireGuard: your own file (click to show)</b></summary>
 
 WireGuard is not a provider, it is a fast VPN protocol. If your provider (paid or free plan) gives you a WireGuard `.conf` file, put it in GhostVPN: choose **WireGuard** in the list → **SETTINGS → BROWSE CONFIG**. Mullvad users get WireGuard files automatically.
 
-### 💼 Paid proxy
+</details>
 
-`Proxy Store` · `Bright Data` · `Oxylabs` · `Decodo` · `NetNut` · `SOAX` · `IPRoyal` · `Rayobyte` · `Infatica` · `ProxyEmpire` · `ProxyRack` · `Shifter` · `NodeMaven` · `Webshare` · `DataImpulse` · `Proxy-Seller` · `Geonix` · `Proxy6` · `Proxy-Cheap`
+<details>
+<summary><b>💼 Paid proxy and 🆓 free proxy lists (click to show)</b></summary>
+
+**Paid proxy:** `Proxy Store` · `Bright Data` · `Oxylabs` · `Decodo` · `NetNut` · `SOAX` · `IPRoyal` · `Rayobyte` · `Infatica` · `ProxyEmpire` · `ProxyRack` · `Shifter` · `NodeMaven` · `Webshare` · `DataImpulse` · `Proxy-Seller` · `Geonix` · `Proxy6` · `Proxy-Cheap`
 
 You save the provider's proxy list as a `.txt` file and load it in GhostVPN (login and password supported).
 
-### 🆓 Free proxy lists
+**Free proxy lists** (`IP:port`, download as `.txt` and check in the built-in proxy tester): `Advanced.name` · `Spys.one` · `FreeProxy.world` · `Free-Proxy.cz` · `Geonix` · `FloppyData` · `Proxy5.net` · `RoundProxies` · `ProxyScrape` · `Free-Proxy-List.net` · `IPRoyal (free)` · `NodeMaven`
 
-Free `IP:port` lists you can download as `.txt` and check in the built-in proxy tester:
-`Advanced.name` · `Spys.one` · `FreeProxy.world` · `Free-Proxy.cz` · `Geonix` · `FloppyData` · `Proxy5.net` · `RoundProxies` · `ProxyScrape` · `Free-Proxy-List.net` · `IPRoyal (free)` · `NodeMaven`
+</details>
 
-### 🖥️ Your own server
+<details>
+<summary><b>🖥️ Your own server: Squid and Shadowsocks (click to show)</b></summary>
 
 | Server | What it is |
 |---|---|
@@ -112,7 +135,9 @@ Free `IP:port` lists you can download as `.txt` and check in the built-in proxy 
 
 GhostVPN creates the file `SERWER Squid + Shadowsocks.txt` with copy-paste commands to set them up.
 
-## 🔐 How it works
+</details>
+
+## 🔐 OpenVPN, WireGuard or proxy?
 
 | | OpenVPN | WireGuard | Proxy |
 |---|---|---|---|
@@ -125,31 +150,11 @@ GhostVPN creates the file `SERWER Squid + Shadowsocks.txt` with copy-paste comma
 
 Your VPN login is encrypted by Windows (DPAPI) and stays on your computer. GhostVPN has no account, no ads and no tracking.
 
-## 🧰 Requirements
-
-- **Windows 10 or 11** (64-bit)
-- **Python 3.10 or newer** from [python.org](https://www.python.org/downloads/) (tick *Add Python to PATH*)
-- **OpenVPN** from [openvpn.net](https://openvpn.net/community-downloads/) (for OpenVPN connections)
-- Administrator rights (needed to change network, DNS and firewall settings)
-- An account with a VPN provider, or the free servers
-
-Missing Python libraries install themselves on the first start.
-
-## 🚀 Quick start
-
-1. **Download** `GhostVPN_portable.zip` from [Releases](../../releases/latest) and unzip it, e.g. to `C:\GhostVPN`.
-2. **Run** `URUCHOM_GHOST.bat` and click **Yes** when Windows asks for administrator rights.
-3. **Choose a provider** in the top-left corner and add your servers: **SETTINGS → ADVANCED → UPDATE** (Cloud Sync) or **SETTINGS → BROWSE CONFIG** for your own `.ovpn` files.
-4. **Save your VPN login**: **SETTINGS → VPN ACCOUNT**.
-5. **Pick a country and server**, then click **CONNECT VPN**. The map shows your new location.
-
-👉 Full step-by-step instructions: **[User guide](docs/USER_GUIDE.md)**. Problems? See the **[FAQ](docs/FAQ.md)**.
-
 ## 📜 License
 
-**GhostVPN belongs solely to its author, MRGREGOR85.** You may download it from this page and use it on your own computer for **private home use only**.
+### GhostVPN belongs solely to its author, MRGREGOR85. Private home use only.
 
-You may **not** share it with other people, re-upload it anywhere, sell it, use it commercially or modify it. Everyone downloads their own copy from this official page.
+You may download it from this page and use it on your own computer. You may **not** share it with other people, re-upload it anywhere, sell it, use it commercially or modify it. Everyone downloads their own copy from this official page.
 
 Full text: [LICENSE](LICENSE). You can also read it in the program: **SETTINGS → 📜 LICENSE**.
 
@@ -157,12 +162,14 @@ GhostVPN is an independent program and is not affiliated with any VPN or proxy p
 
 ## 👨‍💻 Author
 
-<img src="docs/images/logo.png" alt="MRGREGOR85" width="96" align="left">
+<img src="docs/images/logo.png" alt="MRGREGOR85" width="110" align="left">
 
-**MRGREGOR85** · [github.com/MRGREGOR85](https://github.com/MRGREGOR85)
+### MRGREGOR85
+
+[github.com/MRGREGOR85](https://github.com/MRGREGOR85)
 
 The pirate behind GhostVPN. I build programs for people who want to stay invisible on the internet.
 
 <br clear="left">
 
-If GhostVPN helps you, please give it a ⭐
+### If GhostVPN helps you, please give it a ⭐
