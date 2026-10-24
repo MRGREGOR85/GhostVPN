@@ -14,6 +14,8 @@
 
 ## [⬇ Pobierz GhostVPN](../../releases/latest)
 
+### [🌐 Strona GhostVPN](https://mrgregor85.github.io/GhostVPN-BETA/pl.html)
+
 [🇬🇧 English](README.md) · **🇵🇱 Polski** · [Instrukcja (EN)](docs/USER_GUIDE.md) · [FAQ (EN)](docs/FAQ.md) · [Licencja](LICENSE)
 
 </div>
