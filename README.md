@@ -49,6 +49,10 @@ You keep your own VPN account (NordVPN, Surfshark, ProtonVPN, Mullvad and many m
 
 GhostVPN does not sell VPN. You use your own account with one of these providers, or the free servers.
 
+| 💳 Paid VPN | 🆓 Free VPN | 🔧 Own WireGuard | 💼 Paid proxy |
+|:-:|:-:|:-:|:-:|
+| **19 providers** | **VPN Gate · IPSpeed** | **your `.conf` file** | **19 providers** |
+
 ### 💳 Paid VPN (OpenVPN)
 
 | Provider | How servers get into GhostVPN |
@@ -73,17 +77,20 @@ GhostVPN does not sell VPN. You use your own account with one of these providers
 | ExpressVPN | 📁 `.ovpn` files from the provider's website |
 | Surfshark | 📁 `.ovpn` files from the provider's website |
 
-### 🆓 Free VPN
+### 🆓 Free VPN (OpenVPN): no account, no payment
 
-| Source | Protocol | How servers get into GhostVPN |
-|---|---|---|
-| VPN Gate | OpenVPN | ⚡ automatic, one click: free public servers (each profile checked) |
-| IPSpeed | OpenVPN | ⚡ automatic, one click: free public servers (each profile checked) |
-| WireGuard | WireGuard | 📁 your own `.conf` file (FOLDER button) |
+| Provider | How servers get into GhostVPN |
+|---|---|
+| VPN Gate | ⚡ automatic, one click: free public servers |
+| IPSpeed | ⚡ automatic, one click: free public servers |
 
-No account and no login needed for VPN Gate and IPSpeed.
+Where: **SETTINGS → ADVANCED → 🆓 DARMOWE VPN (free VPN) → UPDATE**. Every downloaded profile is checked before it is saved.
 
 > ⚠️ Free public servers are slower and run by strangers. For banking and important logins use a paid VPN.
+
+### 🔧 WireGuard: your own file
+
+WireGuard is not a provider, it is a fast VPN protocol. If your provider (paid or free plan) gives you a WireGuard `.conf` file, put it in GhostVPN: choose **WireGuard** in the list → **SETTINGS → BROWSE CONFIG**. Mullvad users get WireGuard files automatically.
 
 ### 💼 Paid proxy
 
