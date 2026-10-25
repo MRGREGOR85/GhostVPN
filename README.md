@@ -1,5 +1,6 @@
 <div align="center">
 
+
 <img src="docs/images/banner.svg" alt="GhostVPN terminal: root@ghost-net:~# ghostvpn --connect --stealth" width="100%">
 
 # GhostVPN v4.9.26-BETA · Windows 10/11
@@ -20,7 +21,6 @@
 
 **🇬🇧 English** · [🇵🇱 Polski](README_PL.md) · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
 
-</div>
 
 ---
 
@@ -36,11 +36,11 @@ You keep your own VPN account (`NordVPN`, `Surfshark`, `ProtonVPN`, `Mullvad` an
 
 ## 🚀 Quick start
 
-1. **Download** `GhostVPN_portable.zip` from [Releases](../../releases/latest) and unzip it, e.g. to `C:\GhostVPN`.
-2. **Run** `URUCHOM_GHOST.bat` and click **Yes** when Windows asks for administrator rights.
-3. **Choose a provider** in the top-left corner and add servers: **SETTINGS → ADVANCED → UPDATE** or **SETTINGS → BROWSE CONFIG** for your own `.ovpn` files.
-4. **Save your VPN login**: **SETTINGS → VPN ACCOUNT**.
-5. **Pick a country and server**, click **CONNECT VPN**. The map shows your new location.
+**1.** **Download** `GhostVPN_portable.zip` from [Releases](../../releases/latest) and unzip it, e.g. to `C:\GhostVPN`.  
+**2.** **Run** `URUCHOM_GHOST.bat` and click **Yes** when Windows asks for administrator rights.  
+**3.** **Choose a provider** in the top-left corner and add servers: **SETTINGS → ADVANCED → UPDATE** or **SETTINGS → BROWSE CONFIG** for your own `.ovpn` files.  
+**4.** **Save your VPN login**: **SETTINGS → VPN ACCOUNT**.  
+**5.** **Pick a country and server**, click **CONNECT VPN**. The map shows your new location.  
 
 **You need:** Windows 10/11 · [Python 3.10+](https://www.python.org/downloads/) (tick *Add Python to PATH*) · [OpenVPN](https://openvpn.net/community-downloads/) · administrator rights. Missing Python libraries install themselves on the first start.
 
@@ -166,7 +166,7 @@ GhostVPN is an independent program and is not affiliated with any VPN or proxy p
 
 ## 👨‍💻 Author
 
-<img src="docs/images/logo.png" alt="MRGREGOR85" width="110" align="left">
+<p align="center"><img src="docs/images/logo.png" alt="MRGREGOR85" width="140"></p>
 
 ### MRGREGOR85
 
@@ -174,6 +174,7 @@ GhostVPN is an independent program and is not affiliated with any VPN or proxy p
 
 The pirate behind GhostVPN. I build programs for people who want to stay invisible on the internet.
 
-<br clear="left">
 
 ### If GhostVPN helps you, please give it a ⭐
+
+</div>
