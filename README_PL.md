@@ -17,10 +17,6 @@
 
 **Windows 10 i 11 · 64-bit · jeden plik .zip, bez instalatora**
 
-<a href="https://youtu.be/Z6WQEQ91pls"><img src="docs/images/video.jpg" alt="Obejrzyj pełną instrukcję wideo krok po kroku" width="480"></a>
-
-**▶ [Pełna instrukcja wideo na YouTube](https://youtu.be/Z6WQEQ91pls)**
-
 
 [🇬🇧 English](README.md) · **🇵🇱 Polski** · [Instrukcja (EN)](docs/USER_GUIDE.md) · [FAQ (EN)](docs/FAQ.md) · [Licencja](LICENSE)
 
@@ -166,6 +162,16 @@ Możesz pobrać go z tej strony i używać na własnym komputerze. **Nie wolno**
 Pełny tekst: [LICENSE](LICENSE). Licencję przeczytasz też w programie: **USTAWIENIA → 📜 LICENCJA**.
 
 GhostVPN to niezależny program, niezwiązany z żadnym dostawcą VPN ani proxy. Dane mapy © współtwórcy [OpenStreetMap](https://www.openstreetmap.org/copyright).
+
+## 🎬 YouTube
+
+<div align="center">
+
+<a href="https://youtu.be/Z6WQEQ91pls"><img src="docs/images/video.jpg" alt="Obejrzyj pełną instrukcję wideo krok po kroku" width="480"></a>
+
+**▶ [Pełna instrukcja wideo na YouTube](https://youtu.be/Z6WQEQ91pls)**
+
+</div>
 
 ## 👨‍💻 Autor
 
