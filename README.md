@@ -9,13 +9,13 @@
 
 ### Change your IP in one click: OpenVPN, WireGuard, Shadowsocks and proxy in one dark, fast program for Windows.
 
-[![Version](https://img.shields.io/badge/version-4.9.26--BETA-2ee66b?style=for-the-badge)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-4.9.26--BETA-0e6830?style=for-the-badge)](../../releases/latest)
 [![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#-quick-start)
 [![License](https://img.shields.io/badge/license-home%20use%20only-red?style=for-the-badge)](LICENSE)
 
 <a href="https://github.com/MRGREGOR85/GhostVPN-BETA/releases/latest/download/GhostVPN_portable.zip"><img src="docs/images/download_en.png" alt="Download GhostVPN" width="380"></a>
 
-<sub>Windows 10 and 11 · 64-bit · one .zip file, no installer</sub>
+**Windows 10 and 11 · 64-bit · one .zip file, no installer**
 
 **🇬🇧 English** · [🇵🇱 Polski](README_PL.md) · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
 
