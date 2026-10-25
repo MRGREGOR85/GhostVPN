@@ -17,6 +17,11 @@
 
 **Windows 10 i 11 · 64-bit · jeden plik .zip, bez instalatora**
 
+<a href="https://youtu.be/Z6WQEQ91pls"><img src="docs/images/video.jpg" alt="Obejrzyj pełną instrukcję wideo krok po kroku" width="480"></a>
+
+**▶ [Pełna instrukcja wideo na YouTube](https://youtu.be/Z6WQEQ91pls)**
+
+
 [🇬🇧 English](README.md) · **🇵🇱 Polski** · [Instrukcja (EN)](docs/USER_GUIDE.md) · [FAQ (EN)](docs/FAQ.md) · [Licencja](LICENSE)
 
 

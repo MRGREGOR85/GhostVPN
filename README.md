@@ -17,6 +17,11 @@
 
 **Windows 10 and 11 · 64-bit · one .zip file, no installer**
 
+<a href="https://youtu.be/Z6WQEQ91pls"><img src="docs/images/video.jpg" alt="Watch the full step-by-step video guide" width="480"></a>
+
+**▶ [Full video guide on YouTube](https://youtu.be/Z6WQEQ91pls)**
+
+
 **🇬🇧 English** · [🇵🇱 Polski](README_PL.md) · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
 
 
