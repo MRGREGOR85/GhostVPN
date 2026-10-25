@@ -15,7 +15,7 @@
 
 <a href="https://github.com/MRGREGOR85/GhostVPN-BETA/releases/latest/download/GhostVPN_portable.zip"><img src="docs/images/download_en.png" alt="Download GhostVPN" width="380"></a>
 
-### [🌐 GhostVPN website](https://mrgregor85.github.io/GhostVPN-BETA/)
+<sub>Windows 10 and 11 · 64-bit · one .zip file, no installer</sub>
 
 **🇬🇧 English** · [🇵🇱 Polski](README_PL.md) · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
 
