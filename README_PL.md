@@ -167,7 +167,7 @@ GhostVPN to niezależny program, niezwiązany z żadnym dostawcą VPN ani proxy.
 
 <div align="center">
 
-<a href="https://youtu.be/Z6WQEQ91pls"><img src="docs/images/video.jpg" alt="Obejrzyj pełną instrukcję wideo krok po kroku" width="480"></a>
+<a href="https://youtu.be/Z6WQEQ91pls"><img src="docs/images/video.jpg" alt="Obejrzyj pełną instrukcję wideo krok po kroku" width="100%"></a>
 
 </div>
 
