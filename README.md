@@ -18,7 +18,9 @@
 **Windows 10 and 11 · 64-bit · one .zip file, no installer**
 
 
-**🇬🇧 English** · [🇵🇱 Polski](README_PL.md) · [User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
+## [🇵🇱 Polski](README_PL.md) &nbsp; [🇬🇧 English](README.md) &nbsp; [🇩🇪 Deutsch](lang/README_DE.md) &nbsp; [🇨🇿 Čeština](lang/README_CS.md) &nbsp; [🇸🇰 Slovenčina](lang/README_SK.md) &nbsp; [🇺🇦 Українська](lang/README_UK.md) &nbsp; [🇷🇺 Русский](lang/README_RU.md) &nbsp; [🇱🇹 Lietuvių](lang/README_LT.md) &nbsp; [🇱🇻 Latviešu](lang/README_LV.md) &nbsp; [🇪🇪 Eesti](lang/README_ET.md) &nbsp; [🇪🇸 Español](lang/README_ES.md) &nbsp; [🇫🇷 Français](lang/README_FR.md) &nbsp; [🇮🇹 Italiano](lang/README_IT.md) &nbsp; [🇵🇹 Português](lang/README_PT.md) &nbsp; [🇳🇱 Nederlands](lang/README_NL.md) &nbsp; [🇸🇪 Svenska](lang/README_SV.md) &nbsp; [🇩🇰 Dansk](lang/README_DA.md) &nbsp; [🇳🇴 Norsk](lang/README_NO.md) &nbsp; [🇫🇮 Suomi](lang/README_FI.md) &nbsp; [🇭🇺 Magyar](lang/README_HU.md) &nbsp; [🇷🇴 Română](lang/README_RO.md) &nbsp; [🇧🇬 Български](lang/README_BG.md) &nbsp; [🇬🇷 Ελληνικά](lang/README_EL.md) &nbsp; [🇭🇷 Hrvatski](lang/README_HR.md) &nbsp; [🇷🇸 Српски](lang/README_SR.md) &nbsp; [🇸🇮 Slovenščina](lang/README_SL.md) &nbsp; [🇹🇷 Türkçe](lang/README_TR.md) &nbsp; [🇻🇳 Tiếng Việt](lang/README_VI.md) &nbsp; [🇮🇩 Indonesia](lang/README_ID.md)
+
+[User guide](docs/USER_GUIDE.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
 
 
 ---
